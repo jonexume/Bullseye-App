@@ -16,7 +16,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    // Below is for the button that is being pressed.  It has the words Hit me.
+    
     @IBAction func showAlert() {
         
         let message = "The value of the slider is: \(currentValue)"
