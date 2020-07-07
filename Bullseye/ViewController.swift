@@ -59,7 +59,7 @@ class ViewController: UIViewController {
         round = round + 1
         updateLabels()
     }
-    
+    // Added the update label
     func updateLabels() {
       targetLabel.text = String(targetValue)
         scoreLabel.text = String(score)
