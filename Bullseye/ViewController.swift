@@ -36,9 +36,8 @@ class ViewController: UIViewController {
         let difference = abs(targetValue - currentValue)
         let points = 100 - difference
         score += points
-        
-        
-        let message = "You scored \(points) points peeps"
+
+        let message = "You scored \(points) points"
         let alert = UIAlertController(title: "Hello World", message: message, preferredStyle: .alert)
         let action = UIAlertAction(title: "OK Dokey", style: .default, handler: nil)
         
