@@ -103,7 +103,7 @@
                         <outlet property="roundLabel" destination="A41-HD-KCM" id="YOa-Hx-EDx"/>
                         <outlet property="scoreLabel" destination="QAg-AG-WLx" id="jog-vw-Iln"/>
                         <outlet property="slider" destination="KId-rK-dQn" id="nlG-5j-9GL"/>
-                        <outlet property="targetLabel" destination="3WP-mx-nLO" id="oDE-zY-pnQ"/>
+                        <outlet property="targetLabel" destination="Pn4-6S-jhG" id="Lfu-E2-HFx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
