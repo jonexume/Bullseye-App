@@ -26,25 +26,42 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        startNewRound()
+        startNewGame()
         // Do any additional setup after loading the view.
     }
     // Below is for the button that is being pressed.  It has the words Hit me.
     
     @IBAction func showAlert() {
         
-        let difference = abs(targetValue - currentValue)
-        let points = 100 - difference
+         let difference = abs(targetValue - currentValue)
+         var points = 100 - difference
+         
+
+         // add these lines
+         let title: String
+         if difference == 0 {
+           title = "Perfect!"
+            points += 150
+         } else if difference < 5 {
+           title = "You almost had it!"
+         } else if difference < 10 {
+           title = "Pretty good!"
+         } else {
+           title = "Not even close..."
+         }
         score += points
 
-        let message = "You scored \(points) points"
-        let alert = UIAlertController(title: "Hello World", message: message, preferredStyle: .alert)
-        let action = UIAlertAction(title: "OK Dokey", style: .default, handler: nil)
-        
-        alert.addAction(action)
-        
-        present(alert, animated: true, completion: nil)
-        startNewRound()
+         let message = "You scored \(points) points"
+
+         let alert = UIAlertController(title: title,  // change this
+                                     message: message,
+                              preferredStyle: .alert)
+
+         let action = UIAlertAction(title: "OK", style: .default,
+                                    handler: { _ in self.startNewRound() })
+         alert.addAction(action)
+         present(alert, animated: true, completion: nil)
+
     }
     
     @IBAction func sliderMoved(_ slider: UISlider) {
@@ -65,6 +82,15 @@ class ViewController: UIViewController {
         roundLabel.text = String(round)
     }
 
-
+    func startNewGame() {
+    score = 0
+    round = 0
+    startNewRound()
+    }
+    
+    @IBAction func startOver(_ sender: Any) {
+        startNewGame()
+    }
 }
+
 
