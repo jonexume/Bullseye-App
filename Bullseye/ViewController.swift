@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-       /* let thumbImageNormal = UIImage(named: "SliderThumb-Normal")!
+        let thumbImageNormal = UIImage(named: "SliderThumb-Normal")!
         slider.setThumbImage(thumbImageNormal, for: .normal)
 
         let thumbImageHighlighted = UIImage(named: "SliderThumb-Highlighted")!
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         let trackRightResizable =
                          trackRightImage.resizableImage(withCapInsets: insets)
         slider.setMaximumTrackImage(trackRightResizable, for: .normal)
-*/
+
         startNewGame()
         // Do any additional setup after loading the view.
     }
