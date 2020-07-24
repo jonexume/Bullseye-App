@@ -18,7 +18,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="2Z7-CN-yIc">
                                 <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                             </imageView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mLh-UM-CNx">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mLh-UM-CNx">
                                 <rect key="frame" x="16" y="0.0" width="642" height="369"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0rm-u7-fF8">
@@ -124,7 +124,6 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="642" id="3MD-v7-uA6"/>
                                     <constraint firstAttribute="height" constant="369" id="QpM-U1-wE9"/>
@@ -133,7 +132,9 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="mLh-UM-CNx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="HOm-34-u7o"/>
                             <constraint firstItem="2Z7-CN-yIc" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="LCD-pl-nTb"/>
+                            <constraint firstItem="mLh-UM-CNx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="MRb-xn-x33"/>
                             <constraint firstItem="2Z7-CN-yIc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="NiM-lr-13H"/>
                             <constraint firstItem="2Z7-CN-yIc" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="WZf-h8-y7M"/>
                             <constraint firstItem="2Z7-CN-yIc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eQ6-xK-fQs"/>
