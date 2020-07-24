@@ -1,0 +1,95 @@
+{
+  "images" : [
+    {
+      "filename" : "Icon-40.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "7x7"
+    },
+    {
+      "filename" : "Icon-60.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "7x7"
+    },
+    {
+      "filename" : "Icon-80.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "size" : "7x7"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "11x11"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "11x11"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "size" : "11x11"
+    },
+    {
+      "filename" : "Icon-29.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "24x24"
+    },
+    {
+      "filename" : "Icon-58.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "24x24"
+    },
+    {
+      "filename" : "Icon-76.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "size" : "24x24"
+    },
+    {
+      "filename" : "Icon-87.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "50x50"
+    },
+    {
+      "filename" : "Icon-120.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "50x50"
+    },
+    {
+      "filename" : "Icon-152.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "size" : "50x50"
+    },
+    {
+      "filename" : "Icon-167.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "100x100"
+    },
+    {
+      "filename" : "Icon-180.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "100x100"
+    },
+    {
+      "filename" : "Icon-1024.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "size" : "100x100"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
